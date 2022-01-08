@@ -77,6 +77,5 @@ data "azurerm_public_ip" "example" {
 output "public_ip_address" {
   value = data.azurerm_public_ip.example.ip_address
 }
-data "azurerm_client_config" "current" {
-}
+
 
